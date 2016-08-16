@@ -29,5 +29,7 @@ namespace Bossy.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Bossy.Models.Tasks> Tasks { get; set; }
     }
 }

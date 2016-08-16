@@ -58,11 +58,9 @@ namespace Bossy
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(
+                clientId: "673981251137-t7l9b088ck7mg6fuaot409ohu89otq85.apps.googleusercontent.com",
+                clientSecret: "IzbZbfpoKPaSatRV-Dkx73pj");
         }
     }
 }
